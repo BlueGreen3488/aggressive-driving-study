@@ -41,15 +41,15 @@ This repository contains:
 
 To reproduce the results reported in the paper:
 
-1. Place the input dataset as `data.csv` in the root directory of this repository.
-2. Open `main_analysis.ipynb`.
-3. Modify the following variables in **Cell 1** to select the experimental condition:
+1. Download `data.7z` from this repository and extract it.
+2. Move the extracted `data.csv` to `./Analysis/` (i.e., `./Analysis/data.csv`).
+3. Open `./Analysis/main_analysis.ipynb`.
+4. Modify the following variables in **Cell 1** to select the experimental condition:
    - `PERIOD` (`"day"` or `"night"`)
    - `TYPE_FILTER` (`None` or a specific road type, e.g. `"motorway"`)
-4. Run the notebook from top to bottom.
+5. Run the notebook from top to bottom.
 
 All outputs (figures, tables, and the trained model) will be automatically saved to the corresponding subdirectory under `./outputs/`.
-
 ---
 
 
