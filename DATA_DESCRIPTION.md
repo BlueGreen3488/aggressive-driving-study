@@ -87,11 +87,8 @@ Each row represents the aggregated result of a short trajectory segment within a
 ## Road-level traffic conditions  
 *(aggregated at the road × time-period level)*
 
-- **trajectory_count**  
+- **track_count**
   Number of trajectories passing through the road segment during the given time period.
-
-- **track_count**  
-  Number of trajectory points observed on the road segment during the given time period.
 
 - **length_meter** *(m)*  
   Length of the road segment.
