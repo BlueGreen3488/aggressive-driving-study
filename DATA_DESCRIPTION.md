@@ -45,9 +45,6 @@ Each row represents the aggregated result of a short trajectory segment within a
 - **azimuth**  
   Heading/bearing of movement (degrees).
 
-- **velocity** *(km/h)*  
-  Instantaneous speed at the trajectory point.
-
 - **acceleration** *(m/s²)*  
   Instantaneous acceleration at the trajectory point.
 
@@ -107,11 +104,14 @@ Each row represents the aggregated result of a short trajectory segment within a
 
 ---
 
-## Driving behavior outcome
+## Trajectory-segment variables  
+*(computed within the time window)*
+
+- **velocity** *(km/h)*  
+  Average speed over the trajectory segment within the time window.
 
 - **gamma**  
-  Aggressive driving index computed for the trajectory segment within the time window.  
-  This variable serves as the main outcome measure in the analysis.
+  Aggressive driving index computed for the trajectory segment within the time window.
 
 ---
 
